@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#100e0e" />
+    <title>Arsh — Backend developer</title>
+    <meta
+      name="description"
+      content="Arsh is a backend-focused developer building APIs, data models, and useful products."
+    />
+    <script>
+      try {
+        document.documentElement.dataset.theme =
+          localStorage.getItem("arsh-theme") || "dark";
+      } catch {
+        document.documentElement.dataset.theme = "dark";
+      }
+    </script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="shell" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Arsh, home"
+          ><img
+            src="https://github.com/Arsh2910.png?size=160"
+            width="48"
+            height="48"
+            alt="Arsh’s GitHub avatar"
+        /></a>
+        <div class="nav-links">
+          <a href="#projects">Projects</a><a href="#about">About</a
+          ><a href="#contact">Contact</a
+          ><a href="Arsh_Resume.pdf" target="_blank" rel="noopener">Résumé ↗</a>
+        </div>
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="Switch to light theme"
+          title="Switch theme"
+        >
+          <span class="sun" aria-hidden="true">☼</span
+          ><span class="moon" aria-hidden="true">☾</span>
+        </button>
+      </nav>
+    </header>
+    <aside class="index-nav" aria-label="Page index">
+      <span>ON THIS PAGE</span><a href="#top">Introduction</a
+      ><a href="#stack">Tech stack</a><a href="#journey">Education</a
+      ><a href="#projects">Projects</a><a href="#about">About me</a
+      ><a href="#contact">Contact</a>
+    </aside>
+    <main id="top" class="shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Backend developer · Ghaziabad, India</p>
+          <h1>
+            Hi, I’m <em>Arsh.</em
+            ><span class="role">A backend-focused developer.</span>
+          </h1>
+          <p class="intro">
+            I build web applications with
+            <a class="inline-tech" href="#stack"
+              ><img
+                src="https://skillicons.dev/icons?i=js"
+                width="16"
+                height="16"
+                alt=""
+              />JavaScript</a
+            >
+            <a class="inline-tech" href="#stack"
+              ><img
+                src="https://skillicons.dev/icons?i=react"
+                width="16"
+                height="16"
+                alt=""
+              />React</a
+            >
+            <a class="inline-tech" href="#stack"
+              ><img
+                src="https://skillicons.dev/icons?i=nodejs"
+                width="16"
+                height="16"
+                alt=""
+              />Node.js</a
+            >
+            <a class="inline-tech" href="#stack"
+              ><img
+                src="https://skillicons.dev/icons?i=express"
+                width="16"
+                height="16"
+                alt=""
+              />Express</a
+            >
+            <a class="inline-tech" href="#stack"
+              ><img
+                src="https://skillicons.dev/icons?i=mongodb"
+                width="16"
+                height="16"
+                alt=""
+              />MongoDB</a
+            >, with a focus on APIs, authentication, and clean, understandable
+            code.
+          </p>
+          <div class="actions">
+            <a
+              class="button primary"
+              href="Arsh_Resume.pdf"
+              target="_blank"
+              rel="noopener"
+              >Résumé / CV ↗</a
+            ><a class="button" href="mailto:arshj347@gmail.com"
+              >Get in touch ↗</a
+            >
+          </div>
+          <div class="socials">
+            <a href="https://github.com/Arsh2910" target="_blank" rel="noopener"
+              >GitHub ↗</a
+            ><a
+              href="https://www.linkedin.com/in/mohd-arsh-28ab06328"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn ↗</a
+            ><a
+              href="https://leetcode.com/u/arsh2910/"
+              target="_blank"
+              rel="noopener"
+              >LeetCode ↗</a
+            ><button
+              class="command-trigger"
+              type="button"
+              aria-label="Open quick navigation"
+            >
+              Ctrl K
+            </button>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="banner">
+            <img
+              src="assets/pixel-walk.gif"
+              width="192"
+              height="108"
+              alt="Animated pixel-art town"
+            />
+            <div class="banner-shade"></div>
+            <a
+              class="art-credit"
+              href="https://kazerlelutin.itch.io/pixel-art-gifs"
+              target="_blank"
+              rel="noopener"
+              >Pixel art: kazerlelutin ↗</a
+            >
+          </div>
+          <button
+            class="avatar-button"
+            type="button"
+            aria-label="Say hello to Arsh"
+          >
+            <img
+              src="https://github.com/Arsh2910.png?size=160"
+              width="92"
+              height="92"
+              alt="Arsh"
+            /><span class="presence"></span></button
+          ><span class="avatar-note">psst, click me!</span>
+        </div>
+      </section>
+      <div class="current-focus">
+        <span>Current focus</span
+        ><strong>Building projects &amp; learning system design ↗</strong>
+      </div>
+      <section id="stack" aria-labelledby="stack-title">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Expertise</p>
+            <h2 id="stack-title">Tech Stack &amp; Tools</h2>
+          </div>
+          <p class="section-note">
+            A practical stack for shipping complete, maintainable projects.
+          </p>
+        </div>
+        <div class="stack">
+          <div class="tool" tabindex="0" aria-label="JavaScript: Language">
+            <img
+              src="https://skillicons.dev/icons?i=js"
+              width="26"
+              height="26"
+              alt=""
+              loading="lazy"
+            /><span class="tooltip" role="tooltip"
+              >JavaScript<small>Language</small></span
+            >
+          </div>
+          <div class="tool" tabindex="0" aria-label="Python: Language">
+            <img
+              src="https://skillicons.dev/icons?i=py"
+              width="26"
+              height="26"
+              alt=""
+              loading="lazy"
+            /><span class="tooltip" role="tooltip"
+              >Python<small>Language</small></span
+            >
+          </div>
+          <div class="tool" tabindex="0" aria-label="C++: Language">
+            <img
+              src="https://skillicons.dev/icons?i=cpp"
+              width="26"
+              height="26"
+              alt=""
+              loading="lazy"
+            /><span class="tooltip" role="tooltip"
+              >C++<small>Language</small></span
+            >
+          </div>
+          <div class="tool" tabindex="0" aria-label="React: UI Library">
+            <img
+              src="https://skillicons.dev/icons?i=react"
+              width="26"
+              height="26"
+              alt=""
+              loading="lazy"
+            /><span class="tooltip" role="tooltip"
+              >React<small>UI Library</small></span
+            >
+          </div>
+          <div class="tool" tabindex="0" aria-label="Node.js: Runtime">
+            <img
+              src="https://skillicons.dev/icons?i=nodejs"
+              width="26"
+              height="26"
+              alt=""
+              loading="lazy"
+            /><span class="tooltip" role="tooltip"
+              >Node.js<small>Runtime</small></span
+            >
+          </div>
+          <div class="tool" tabindex="0" aria-label="Express: Backend">
+            <img
+              src="https://skillicons.dev/icons?i=express"
+              width="26"
+              height="26"
+              alt=""
+              loading="lazy"
+            /><span class="tooltip" role="tooltip"
+              >Express<small>Backend</small></span
+            >
+          </div>
+          <div class="tool" tabindex="0" aria-label="MongoDB: Database">
+            <img
+              src="https://skillicons.dev/icons?i=mongodb"
+              width="26"
+              height="26"
+              alt=""
+              loading="lazy"
+            /><span class="tooltip" role="tooltip"
+              >MongoDB<small>Database</small></span
+            >
+          </div>
+          <div class="tool" tabindex="0" aria-label="Tailwind CSS: Styling">
+            <img
+              src="https://skillicons.dev/icons?i=tailwind"
+              width="26"
+              height="26"
+              alt=""
+              loading="lazy"
+            /><span class="tooltip" role="tooltip"
+              >Tailwind CSS<small>Styling</small></span
+            >
+          </div>
+          <div class="tool" tabindex="0" aria-label="JWT: Authentication">
+            <span class="jwt-icon" aria-hidden="true">✳</span
+            ><span class="tooltip" role="tooltip"
+              >JWT<small>Authentication</small></span
+            >
+          </div>
+          <div class="tool" tabindex="0" aria-label="Git: Version Control">
+            <img
+              src="https://skillicons.dev/icons?i=git"
+              width="26"
+              height="26"
+              alt=""
+              loading="lazy"
+            /><span class="tooltip" role="tooltip"
+              >Git<small>Version Control</small></span
+            >
+          </div>
+          <div class="tool" tabindex="0" aria-label="Linux: Environment">
+            <img
+              src="https://skillicons.dev/icons?i=linux"
+              width="26"
+              height="26"
+              alt=""
+              loading="lazy"
+            /><span class="tooltip" role="tooltip"
+              >Linux<small>Environment</small></span
+            >
+          </div>
+          <div class="tool" tabindex="0" aria-label="Postman: API Testing">
+            <img
+              src="https://skillicons.dev/icons?i=postman"
+              width="26"
+              height="26"
+              alt=""
+              loading="lazy"
+            /><span class="tooltip" role="tooltip"
+              >Postman<small>API Testing</small></span
+            >
+          </div>
+        </div>
+      </section>
+      <section id="journey">
+        <div class="section-head">
+          <div>
+            <p class="kicker">My path</p>
+            <h2>Education &amp; learning</h2>
+          </div>
+        </div>
+        <div class="experience">
+          <details>
+            <summary>
+              <span class="experience-icon">⌘</span
+              ><span
+                ><strong>B.Tech in Computer Science</strong
+                ><small>IMSEC Engineering College</small></span
+              ><span class="dates">2024–2028</span
+              ><span class="chevron">⌄</span>
+            </summary>
+            <div class="detail-body">
+              Studying Computer Science in Ghaziabad, India. Current CGPA: 8.00.
+              Building practical projects alongside coursework, with a focus on
+              backend development.
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span class="experience-icon">⌨</span
+              ><span
+                ><strong>Independent projects</strong
+                ><small>Backend &amp; full-stack development</small></span
+              ><span class="chevron">⌄</span>
+            </summary>
+            <div class="detail-body">
+              Learning through Pathify, BlogNest, Streaming Backend, and
+              NutriLens — from data modeling and authentication to complete
+              application flows.
+            </div>
+          </details>
+        </div>
+      </section>
+      <section id="projects" aria-labelledby="projects-title">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Featured</p>
+            <h2 id="projects-title">Projects</h2>
+          </div>
+          <p class="section-note">
+            Backend-heavy projects made to learn by finishing and sharing.
+          </p>
+        </div>
+        <div class="projects">
+          <article class="project">
+            <div
+              class="project-preview pathify"
+              aria-label="Pathify project illustration"
+            >
+              <div class="mini-window">
+                <span class="window-dots">● ● ●</span
+                ><b>Your next step,<br />a little clearer.</b>
+                <div class="roadmap">
+                  <i>Start</i><span></span><i>Learn</i><span></span><i>Build</i>
+                </div>
+                <small>PATHIFY / LEARNING ROADMAPS</small>
+              </div>
+            </div>
+            <div class="project-top">
+              <span>01 · FULL-STACK</span><span class="live">LIVE</span>
+            </div>
+            <h3>Pathify</h3>
+            <p>
+              A personalized learning-roadmap generator with milestones,
+              progress tracking, and streaks.
+            </p>
+            <div class="tech">Express · MongoDB · Gemini · React</div>
+            <div class="project-links">
+              <a
+                href="https://trail-head-six.vercel.app"
+                target="_blank"
+                rel="noopener"
+                >Live ↗</a
+              ><a
+                href="https://github.com/Arsh2910/Pathify-testing.git"
+                target="_blank"
+                rel="noopener"
+                >Code ↗</a
+              >
+            </div>
+          </article>
+          <article class="project">
+            <div
+              class="project-preview blog"
+              aria-label="BlogNest API illustration"
+            >
+              <div class="mini-window">
+                <span class="window-dots">● ● ●</span><b>Stories, connected.</b
+                ><code>GET /api/posts<br /><span>200 OK</span></code
+                ><small>BLOGNEST / BLOGGING API</small>
+              </div>
+            </div>
+            <div class="project-top">
+              <span>02 · BACKEND</span><span>SOLO</span>
+            </div>
+            <h3>BlogNest</h3>
+            <p>
+              A blogging API with nested comments, followed by a security audit
+              and hardening pass.
+            </p>
+            <div class="tech">Express · MongoDB · JWT · Zod</div>
+            <div class="project-links">
+              <a
+                href="https://github.com/Arsh2910/BlogNest"
+                target="_blank"
+                rel="noopener"
+                >Code ↗</a
+              >
+            </div>
+          </article>
+          <article class="project">
+            <div
+              class="project-preview music"
+              aria-label="Streaming Backend illustration"
+            >
+              <div class="mini-window">
+                <span class="window-dots">● ● ●</span><b>Behind every track.</b>
+                <div class="wave" aria-hidden="true">▂ ▅ ▃ ▇ ▄ ▆ ▂ ▅ ▃</div>
+                <small>AUTH · PLAYLISTS · ALBUMS</small>
+              </div>
+            </div>
+            <div class="project-top">
+              <span>03 · BACKEND</span><span>SOLO</span>
+            </div>
+            <h3>Streaming Backend</h3>
+            <p>
+              A Spotify-style backend with authentication, playlists, albums,
+              and artist profiles.
+            </p>
+            <div class="tech">Node.js · Express · MongoDB · JWT</div>
+            <div class="project-links">
+              <a
+                href="https://github.com/Arsh2910/Spotify-project-backend"
+                target="_blank"
+                rel="noopener"
+                >Code ↗</a
+              >
+            </div>
+          </article>
+          <article class="project">
+            <div
+              class="project-preview nutrition"
+              aria-label="NutriLens API illustration"
+            >
+              <div class="mini-window">
+                <span class="window-dots">● ● ●</span><b>Know what’s inside.</b>
+                <div class="ingredient">Ingredients → Analysis → Verdict</div>
+                <small>NUTRILENS / INGREDIENT API</small>
+              </div>
+            </div>
+            <div class="project-top">
+              <span>04 · BACKEND</span><span>TEAM</span>
+            </div>
+            <h3>NutriLens</h3>
+            <p>
+              An ingredient-checking API with diet and allergy verdicts, scan
+              history, and duplicate detection.
+            </p>
+            <div class="tech">
+              Express · MongoDB Atlas · Gemini · Rate limiting
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/Arsh2910/food-scanner-backend"
+                target="_blank"
+                rel="noopener"
+                >Code ↗</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="about" aria-labelledby="about-title">
+        <div class="about">
+          <img
+            class="about-avatar"
+            src="https://github.com/Arsh2910.png?size=320"
+            width="180"
+            height="180"
+            loading="lazy"
+            alt="Arsh’s GitHub avatar"
+          />
+          <div>
+            <p class="kicker">A little more</p>
+            <h2 id="about-title">About me</h2>
+            <p>
+              I’m studying Computer Science at
+              <strong>IMSEC Engineering College</strong>. Most days I’m thinking
+              about data, auth, APIs, and the small decisions that make a
+              codebase easier to trust.
+            </p>
+            <p>
+              I build outside coursework because finishing a project teaches me
+              more than leaving it as an idea.
+            </p>
+          </div>
+          <div class="facts">
+            <div class="fact">
+              <span>Degree</span><span>B.Tech CSE · 2024–2028</span>
+            </div>
+            <div class="fact"><span>CGPA</span><span>8.00</span></div>
+            <div class="fact">
+              <span>Based in</span><span>Ghaziabad, UP, India</span>
+            </div>
+            <div class="fact">
+              <span>Focus</span><span>Backend / Full-stack</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" aria-labelledby="contact-title">
+        <div class="contact">
+          <div>
+            <h2 id="contact-title">Have something in mind?</h2>
+            <p>
+              Open to internships, collaborations, feedback, and good
+              development conversations.
+            </p>
+          </div>
+          <a class="button primary" href="mailto:arshj347@gmail.com"
+            >arshj347@gmail.com ↗</a
+          >
+        </div>
+      </section>
+      <footer>
+        <span>© 2026 Mohd Arsh</span
+        ><span>Made by Arsh · <a href="#top">Back to top ↑</a></span>
+      </footer>
+    </main>
+    <dialog id="commands" aria-labelledby="command-title">
+      <div class="dialog-head">
+        <h2 id="command-title">Go somewhere</h2>
+        <button
+          class="dialog-close"
+          type="button"
+          aria-label="Close quick navigation"
+        >
+          ×
+        </button>
+      </div>
+      <a href="#projects">Projects <span>↗</span></a
+      ><a href="#stack">Tech stack <span>↗</span></a
+      ><a href="#about">About me <span>↗</span></a
+      ><a href="Arsh_Resume.pdf" target="_blank" rel="noopener"
+        >Résumé <span>↗</span></a
+      ><a href="mailto:arshj347@gmail.com">Send an email <span>↗</span></a
+      ><button class="command-theme" type="button">
+        Switch theme <span>☼</span></button
+      ><small>Esc to close · Tab to navigate</small>
+    </dialog>
+    <div class="toast" role="status" aria-live="polite"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
